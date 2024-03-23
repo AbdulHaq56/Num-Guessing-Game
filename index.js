@@ -5,11 +5,11 @@ const answer = await inquirer.prompt([
     {
         name: "GuessedNumber",
         type: "number",
-        message: "Guess a Number between 0-10",
+        message: "Guess a Number between 0-10:",
     },
 ]);
 if (answer.GuessedNumber === randomNumber) {
     console.log("Congratulation you Guessed a right Number ;)");
 }
 else
-    console.log("You guess a wrong Number :( ");
+    console.log("You Guess a wrong Number :( ");

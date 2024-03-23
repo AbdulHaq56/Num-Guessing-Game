@@ -1,6 +1,6 @@
 {
-  "name": "num-guessing-game",
-  "version": "1.0.0",
+  "name": "abd56-num-guessing-game",
+  "version": "1.0.1",
   "description": "A Cli Number guessing Game",
   "main": "index.js",
   "type": "module",
